@@ -1,0 +1,51 @@
+/**
+ * Created by Chen_Sen on 2016/9/1.
+ */
+
+.x-nva {
+
+}
+
+.x-nav a{
+    border-radius: 0px;
+}
+
+.x-nav-first {
+
+}
+
+.x-nav-second {
+    display: none;
+}
+
+.x-nav-title {
+
+}
+
+.x-nav-title a i {
+    position: absolute;
+    left: 12px;
+    font-size: 16px;
+}
+
+.x-nav-title a i.fa-chevron-down {
+    right: 12px;
+    left: auto;
+}
+
+.x-nav-title a.active i.fa-chevron-down {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.x-nav-pane {
+    display: none;
+}
+
+.x-nav-pane ul {
+    list-style-type: none;
+    margin:0;padding:0;
+}
+
